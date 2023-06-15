@@ -48,7 +48,7 @@ const List = () => {
             onKeyDown={(e) => handleKeyPress(e)}
             value={inputValue}
             onChange={(e) => setinputValue(e.target.value)}
-            placeholder='Task to add'
+            // placeholder='Task to add'
             />
             <button className={styles.btnAdd} onClick={agregarItem}>Add</button>
 
